@@ -19,12 +19,12 @@ In this tutorial I will create a simple Stripe checkout form. Form will be valid
 ![alt text](https://github.com/codingo-me/laravel-stripe-checkout-form/raw/master/checkoutForm.png "Stripe Checkout Form")
   
 
-[Creating the necessary tables and models]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/#part1
-[Defining the routes and creating the controllers]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/#part2
-[Creating checkout form]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/#part3
-[Front-end validation with Parsley.js]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/#part4
-[Stripe configuration]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/#part5
-[Back-end validation]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/#part6
-[Creating Stripe Customer and charging the customer, storing data in the database]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/#part7
+[Creating the necessary tables and models]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/1
+[Defining the routes and creating the controllers]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/2
+[Creating checkout form]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/3
+[Front-end validation with Parsley.js]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/4
+[Stripe configuration]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/5
+[Back-end validation]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/6
+[Creating Stripe Customer and charging the customer, storing data in the database]:http://tuts.codingo.me/create-stripe-checkout-form-in-laravel/7
 [Parsley.js (front-end validation)]:http://tuts.codingo.me/laravel-5-client-side-validation-with-parsley-js/
 [Codingo Tuts]:http://tuts.codingo.me/laravel-social-and-email-authentication
