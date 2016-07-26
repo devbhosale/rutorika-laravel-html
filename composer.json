@@ -8,8 +8,15 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "laravelcollective/html": "5.1.*",
-        "stripe/stripe-php": "3.*"
+        "stripe/stripe-php": "3.*",
+        "rutorika/laravel-html": "dev-laravel-5.1"
     },
+    "repositories": [
+       {
+           "type": "vcs",
+           "url": "https://github.com/boxfrommars/rutorika-laravel-html"
+       }
+   ],    
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",

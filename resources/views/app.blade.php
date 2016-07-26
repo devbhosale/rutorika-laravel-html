@@ -7,6 +7,8 @@
 
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/vendor/rutorika/form/build/css/vendor.min.css">
+    <link rel="stylesheet" href="/vendor/rutorika/form/build/css/style.min.css">
 
     <!-- STRIPE CSS config -->
     <style>
@@ -15,7 +17,7 @@
             margin-bottom: 0px;
             padding: 10px 15px 10px 15px;
         }
-        
+
         .check .alert {
             margin-top: 20px;
         }
@@ -92,6 +94,8 @@
             }
         };
     </script>
+    <script src="/vendor/rutorika/form/build/js/vendor.js"></script>
+    <script src="/vendor/rutorika/form/build/js/scripts.js"></script>
 </body>
 
 </html>

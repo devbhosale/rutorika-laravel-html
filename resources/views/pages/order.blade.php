@@ -17,7 +17,12 @@
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
+      {!! RForm::open() !!}
+      {!! RForm::imageField('Image upload', 'image') !!}
+      {!! RForm::close() !!}
+      
     {!! Form::open(['url' => route('order-post'), 'data-parsley-validate', 'id' => 'payment-form']) !!}
+
 
       <div class="form-group" id="first-name-group">
           {!! Form::label('firstName', 'First Name:') !!}
