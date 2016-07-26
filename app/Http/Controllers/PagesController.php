@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
 use App\Purchase;
+use Log;
 
 class PagesController extends Controller
 {
@@ -16,6 +17,17 @@ class PagesController extends Controller
     public function getOrder()
     {
         return view('pages.order');
+    }
+
+    /**
+     * Image Upload Test
+     *
+     * @return \Illuminate\View\View
+     */
+    public function getImage(Request $request)
+    {
+          \Log::info('SESSION TOKEN: '.$request->session()->token());
+        return view('image.upload');
     }
 
     /**

@@ -17,3 +17,6 @@ Route::get('/', function () {
 
 Route::get('order', ['as' => 'order', 'uses' => 'PagesController@getOrder']);
 Route::post('order', ['as' => 'order-post', 'uses' => 'PagesController@postOrder']);
+
+Route::get('image', ['as' => 'image', 'uses' => 'PagesController@getImage']);
+Route::post('upload', [ 'as' => 'upload', 'uses' => '\Rutorika\Html\Http\UploadController@upload']);
